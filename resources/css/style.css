@@ -1,0 +1,49 @@
+html {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 4rem;
+    margin-left: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#logo {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.lightgray {
+    color: lightgray;
+}
+
+.sign {
+    margin-right: 1.5rem;
+}
