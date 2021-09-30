@@ -7,29 +7,116 @@ nav{
     height: 4rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-img {
-    height: 4rem;
+ #logo img {
+    height: 3.5rem;
     margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline-block;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    word-spacing: 0.1vw;
+}
+
+header p {
+    font-size: 1.9rem;
+    word-spacing: 0.1vw;
+}
+
+.banner {
+    margin: 2rem 0 2rem 1.5rem;
+    display: flex;
+} 
+
+.wrapper1 {
+    width: 60%;
+}
+
+.banner p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    opacity: 1;
+    margin-left: 0;
+}
+
+.wrapper1 > h2 {
+    font-size: 3rem;
+    word-spacing: 0.1vw;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+}
+
+.wrapper1 img {
+    width: 100%;
+    height: auto;
+}
+
+.starthere-btn {
+    background-color: black;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.starthere-btn  a {
+    color: white;
+}
+
+h2, p, .starthere-btn {
+    opacity: 0.7;
+    line-height: 1.2;
+    margin-left: 1.5rem;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    padding-left: 0px;
 }
 
-a{
+.link-style{
     color:black;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 300;
+    margin-right: 1rem;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 3rem;
+    opacity: 0.7;
+    margin: 1.5rem 0 2rem 0;
 }
 
 #logo {
@@ -44,6 +131,94 @@ a{
     color: lightgray;
 }
 
-.sign {
+a.sign {
     margin-right: 1.5rem;
+}
+
+.wrapper2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgray;
+    align-items: flex-end;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 1.5rem;
+    border: solid 1px lightgray;
+}
+
+.box-img {
+    width: 35%;
+}
+
+.box-img img {
+    width: 100%;
+    height: auto;
+}
+
+.box-content {
+    width: 65%;
+    margin-left: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    color:rgb(97, 192, 252);
+}
+
+.back-lightgray {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.course {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coursebox {
+    /* CHANGE MARGIN */
+    margin: 2rem 0 2rem 0rem;
+    width: 40%;
+}
+
+.left-45 {
+    margin-left: 4.5rem;
+}
+
+.right-45 {
+    margin-right: 4.5rem;
+}
+
+.coursebox img{
+    height: auto;
+    width: 80%;
+}
+
+.course-info {
+    background-color: white;
+    padding: 1rem 0 1.5rem 0;
+    width: 80%;
+}
+
+.course-info h3 {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.course-info p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1rem 0 1rem 1rem;
 }
