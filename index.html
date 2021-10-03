@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="desktop">
         <div id="logo">
             <img src="./resources/images/ic-logo.svg" alt="logo of colmar academy">
             <h1>COLMAR</h1>
@@ -19,19 +21,30 @@
         <ul class="link">
             <li><a class="link-style" href="#">On campus</a></li>
             <li><a class="link-style" href="#">Online</a></li>
+            <li><a class="link-style" href="#">For companies</a></li>
             <li><a class="sign link-style" href="#">Sign in</a></li>
         </ul>        
     </nav>
+    <nav class="mobile">
+        <ul>
+            <li><a href="#"><img src="./resources/images/ic-logo.svg" alt=""></a></li>
+            <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt=""></a></li>
+            <li><a href="#"><img src="./resources/images/ic-online.svg" alt=""></a></li>
+            <li><a href="#"><img src="./resources/images/ic-login.svg" alt=""></a></li>
+        </ul>        
+    </nav>
+
     <header>
         <img src="./resources/images/banner.jpg" alt="Group of students studying on a table">
-        <div>
+        <div class="header-content">
             <h2>Learn something new everyday</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <div class="starthere-btn"><a class="link-style" href="#">Start here</a></div>
+            <div class="starthere-btn button"><a class="link-style" href="#">Start here</a></div>
         </div>
     </header>
+
     <main>
-        <div class="banner">
+        <div class="banner relative">
             <div class="wrapper1">
                 <img src="./resources/images/information-main.jpg" alt="Student studying while holding the book upright">
                 <h2>It doesn't hurt to keep practicing</h2>
@@ -126,6 +139,7 @@
             </div>
         </div>
     </main>
+
     <footer>
         <br>
         <h4>Thesis exhibit</h4>
