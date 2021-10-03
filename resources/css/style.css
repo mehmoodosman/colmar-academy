@@ -10,6 +10,22 @@ body {
     margin: 0;
 }
 
+
+h4 {
+    text-align: center;
+    font-size: 2.5rem;
+    opacity: 0.7;
+    margin: 1.5rem 0 2rem 0;
+}
+
+img {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 .button {
     border-radius: 4px;
     background-color: #4a4a4a;
@@ -18,6 +34,11 @@ body {
 
 .lightgray {
     color: lightgray;
+}
+
+
+.margin {
+    margin-left: 1rem;
 }
 
 /* @media only screen and (max-width: 1024px) {
@@ -93,11 +114,6 @@ a.sign {
     justify-content: center;
     align-items: center;
 }
-
-.mobile {
-    display: none;
-}
-
 
 
 @media only screen and (max-width: 570px) {
@@ -255,13 +271,6 @@ header img {
     height: auto;
 }
 
-h4 {
-    text-align: center;
-    font-size: 2.5rem;
-    opacity: 0.7;
-    margin: 1.5rem 0 2rem 0;
-}
-
 .wrapper2 {
     width: 40%;
     display: flex;
@@ -312,11 +321,8 @@ footer {
 }
 
 @media only screen and (max-width: 570px) {
-    .wrapper1 {
-        display: none;
-    }
 
-    .wrapper2 {
+    main .wrapper2 {
         width: 100%;
         border: none;
         padding-left: 1rem;
@@ -345,13 +351,14 @@ footer {
     .box-content {
         width: 100%;
         padding-top: 1rem;
+        padding-right: 1rem;
     }
     
     .banner {
         margin: 0;
     }
 
-    .wrapper2 .box {
+    main .wrapper2 .box {
         background-color: white;
     }
 
@@ -367,6 +374,16 @@ footer {
 
     .box-content h3 {
         margin-top: 1rem;
+    }
+
+    footer .wrapper2 {
+        display: none;
+    }
+
+    footer .wrapper1 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
     }
 
 }
@@ -414,8 +431,49 @@ footer {
     margin: 1rem 0 1rem 1rem;
 }
 
-.margin {
-    margin-left: 1rem;
+@media only screen and (max-width: 570px) {
+
+    .container {
+        background-color: white;
+    }
+
+    .course {
+        flex-direction: column;
+    }
+    
+    .coursebox {
+        width: 90%;
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    .coursebox img {
+        display: none;
+    }
+
+    .coursebox .course-info p {
+        display: none;
+    }
+    
+    .course-info {
+        background-color: lightgray;
+        padding: 1rem 0 1.5rem 1rem;
+    }
+
+    .course-info h3 {
+        margin: 0;
+        margin-left: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        display: block;
+    }
+
+    .container h4 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+
 }
 
 /* COPYRIGHT FOOTER */
