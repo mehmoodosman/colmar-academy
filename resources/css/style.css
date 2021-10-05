@@ -34,6 +34,14 @@ img {
     color: lightgray;
 }
 
+a {
+    transition: text-decoration 200ms ease;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
 
 .margin {
     margin-left: 1rem;
@@ -294,6 +302,11 @@ header img {
     display: flex;
     margin-bottom: 1.5rem;
     border: solid 1px lightgray;
+    transition: all 450ms ease 200ms;
+}
+
+.box:hover {
+    transform: translateX(1rem);
 }
 
 .box-img {
@@ -417,6 +430,11 @@ footer {
 .coursebox {
     margin: 1rem 1rem 2rem 1rem;
     width: 25%;
+    transition: all 200ms ease;
+}
+
+.coursebox:hover {
+    transform: scale(1.1);
 }
 
 .coursebox img{
