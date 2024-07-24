@@ -1,1 +1,1 @@
-# Link: mehmoodosman.github.io/colmar-academy
+# Link: https://mehmoodosman.github.io/colmar-academy
